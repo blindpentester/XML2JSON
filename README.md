@@ -15,3 +15,10 @@ options:
   -o OUTPUT, --output OUTPUT
                         Output file name (default: - for stdout)
 ```
+Practical Uses
+```
+echo <Filename>.xml | ./xml2json.py -o <Filename>.json
+echo <Filename>.xml | ./xml2json.py -o -
+./xml2json.py -o - < <Filename>.xml
+nmap -sV -sC -vv -p- <IP RANGE> -oX - | ./xml2json <output if you want to or just stdout>
+```
