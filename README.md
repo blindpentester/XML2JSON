@@ -5,8 +5,9 @@ A XML2JSON alternative that can handle much much larger files and save your PC m
 > Hopefully you find this useful if you are dealing with lots and lots of data.
 
 ## Examples of Usage
-```
-Usage: something.py [-h] [-o OUTPUT]
+```bash
+./xml2json --help
+usage: xml2json [-h] [-o OUTPUT]
 
 Convert any XML input to JSON format
 
